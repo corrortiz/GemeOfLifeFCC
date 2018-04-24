@@ -1,0 +1,35 @@
+$colorAlive: #ee6e73
+
+.App
+  text-align: center
+
+.cell
+  cursor: pointer
+  justify-self: stretch
+  align-self: stretch
+  height: 100%
+
+.wrapper
+  border: 1px solid black
+
+.dead
+  opacity: 0
+
+.alive
+  opacity: 1
+  background-color: $colorAlive
+  color: #fafafa
+  text-align: center
+
+
+.grid
+  margin-top: 2em
+  margin-bottom: 2em
+  display: grid
+  grid-template-columns: repeat(20, 2em)
+  grid-template-rows: repeat(10, 2em)
+  justify-content: center
+  align-content: center
+
+.counter
+  width: 100%
